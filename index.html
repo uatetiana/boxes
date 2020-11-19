@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,500,700&amp;subset=latin-ext" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="header-title">Catch the box</h1>
+    </div>
+</header>
+<main class="main container">
+    <div class="flex">
+        <button class="btn btn-start">Start</button>
+        <button class="btn btn-restart">New game</button>
+        <p class="main-points">Points:<span class="points">0</span></p>
+        <p class="main-timer">Time left: <span class="timer">01:00</span></p>
+    </div>
+    <div class="game-section">
+        <div class="game-field">
+        </div>
+        <aside class="aside">
+            <table class="table">
+                <thead class="table-head">
+                <tr>
+                    <td colspan="2">Result Table</td>
+                </tr>
+                </thead>
+                <tr class="table-row">
+                    <td class="table-data">Name</td>
+                    <td class="table-data">Score</td>
+                </tr>
+            </table>
+        </aside>
+    </div>
+</main>
+<div class="modal">
+    <div class="wrapper">
+    <p class="modal-points">Your score: <span class="points"></span> </p>
+        <label>Name:
+            <input class="modal-user" type="text">
+        </label>
+        <button class="btn btn-save">Save</button>
+    </div>
+</div>
+<script src="js/main.js"></script>
+
+</body>
+</html>

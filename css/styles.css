@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    background-color: #000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 100px;
+}
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.game-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.aside {
+    width: calc(30% - 30px);
+    margin-left: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn,
+.main-points,
+.main-timer {
+    padding: 5px 15px;
+    background-color: grey;
+    border: 1px solid transparent;
+    color: #eaeaea;
+    font-size: 16px;
+    outline: 1px solid transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: dimgrey;
+}
+
+.game-field {
+    border: 1px solid #eaeaea;
+    width: 70%;
+    min-height: 700px;
+    position: relative;
+}
+
+.table,
+.table-row,
+.table-data {
+    border: 1px solid dimgrey;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    width: 100%;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.points {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.visible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 450px;
+    background-color: #eaeaea;
+    padding: 50px;
+    position: fixed;
+}
+
+.btn-save {
+    padding: 10px 15px;
+    background-color: #000000;
+}
+
+.modal-user {
+    padding: 10px;
+    font-size: 14px;
+}

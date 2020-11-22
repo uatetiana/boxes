@@ -23,7 +23,6 @@ let id = 1;
 let pointsArr = [];
 
 
-
 btnStartGame.addEventListener('click', (event) => {
     if (!gameStart) {
         startGame();

@@ -40,6 +40,7 @@
 .badge-wrapper {
     padding: 7px 12px;
     margin: 0;
+    width: 140px;
 }
 
 .points {
@@ -49,6 +50,7 @@
 .btn-start,
 .btn-restart {
     vertical-align: unset;
+    width: 140px;
 }
 
 .box {

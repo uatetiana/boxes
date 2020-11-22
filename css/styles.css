@@ -5,9 +5,8 @@
 
 .header {
     background-color: #343a40;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 10px 0;
     grid-template-rows: 100px;
 }
 
